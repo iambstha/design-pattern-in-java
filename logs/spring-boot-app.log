@@ -520,3 +520,27 @@ You may need to update both your build tool settings as well as your IDE.
 2024-03-31T19:49:28.131+05:45 DEBUG 6702 --- [factorydesign] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-03-31T19:49:28.131+05:45 DEBUG 6702 --- [factorydesign] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@e8783ac]
 2024-03-31T19:49:28.133+05:45 DEBUG 6702 --- [factorydesign] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-03-31T19:56:54.834+05:45  INFO 6702 --- [factorydesign] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-31T19:56:54.902+05:45  INFO 6702 --- [factorydesign] [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31T19:56:54.925+05:45  INFO 6702 --- [factorydesign] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-03-31T19:56:55.006+05:45  INFO 6702 --- [factorydesign] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-03-31T19:57:09.115+05:45  INFO 8407 --- [factorydesign] [main] c.b.f.FactorydesignApplicationTests      : Starting FactorydesignApplicationTests using Java 17.0.10 with PID 8407 (started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-03-31T19:57:09.119+05:45  INFO 8407 --- [factorydesign] [main] c.b.f.FactorydesignApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-03-31T19:57:09.225+05:45 DEBUG 8407 --- [factorydesign] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d373bcf
+2024-03-31T19:57:11.067+05:45  INFO 8407 --- [factorydesign] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-31T19:57:11.186+05:45  INFO 8407 --- [factorydesign] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 3 JPA repository interfaces.
+2024-03-31T19:57:12.523+05:45  INFO 8407 --- [factorydesign] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-31T19:57:12.578+05:45  INFO 8407 --- [factorydesign] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-31T19:57:13.118+05:45  INFO 8407 --- [factorydesign] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@481ed95c
+2024-03-31T19:57:13.122+05:45  INFO 8407 --- [factorydesign] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-31T19:57:14.929+05:45  INFO 8407 --- [factorydesign] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31T19:57:15.658+05:45  WARN 8407 --- [factorydesign] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-31T19:57:15.836+05:45 DEBUG 8407 --- [factorydesign] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-03-31T19:57:16.025+05:45 DEBUG 8407 --- [factorydesign] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-03-31T19:57:16.084+05:45 DEBUG 8407 --- [factorydesign] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-31T19:57:16.147+05:45 DEBUG 8407 --- [factorydesign] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-31T19:57:16.442+05:45  INFO 8407 --- [factorydesign] [main] c.b.f.FactorydesignApplicationTests      : Started FactorydesignApplicationTests in 8.083 seconds (process running for 9.897)
+2024-03-31T19:57:17.182+05:45 DEBUG 8407 --- [factorydesign] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7d373bcf, started on Sun Mar 31 19:57:09 NPT 2024
+2024-03-31T19:57:17.188+05:45  INFO 8407 --- [factorydesign] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-31T19:57:17.192+05:45  INFO 8407 --- [factorydesign] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-31T19:57:17.223+05:45  INFO 8407 --- [factorydesign] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
