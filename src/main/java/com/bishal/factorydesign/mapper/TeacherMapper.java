@@ -1,6 +1,7 @@
 package com.bishal.factorydesign.mapper;
 
 import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
 import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;
 import org.springframework.stereotype.Component;
@@ -17,5 +18,7 @@ public interface TeacherMapper {
 	TeacherDTO toDTO(Teacher teacher);
 
 	Teacher toEntity(TeacherDTO teacherDTO);
+
+	void updateTeacherFromDto(TeacherDTO teacherDTO, @MappingTarget Teacher teacher);
 
 }

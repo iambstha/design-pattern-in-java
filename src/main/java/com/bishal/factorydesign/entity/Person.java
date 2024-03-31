@@ -1,10 +1,23 @@
 package com.bishal.factorydesign.entity;
 
-import jakarta.persistence.Column;
-import lombok.Data;
+import com.bishal.factorydesign.domain.BaseEntity;
 
-@Data
-public abstract class Person {
+import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
+import lombok.Getter;
+import lombok.Setter;
+
+@MappedSuperclass
+@Getter
+@Setter
+public abstract class Person extends BaseEntity {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
 
 	@Column(name = "first_name")
 	private String firstName;

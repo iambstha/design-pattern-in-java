@@ -1,5 +1,6 @@
 package com.bishal.factorydesign.service;
 
+import java.sql.Timestamp;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import com.bishal.factorydesign.entity.Teacher;
 import com.bishal.factorydesign.exception.RecordNotFoundException;
 import com.bishal.factorydesign.mapper.TeacherMapper;
 import com.bishal.factorydesign.repository.TeacherJpaRepository;
+import com.bishal.factorydesign.service.template.ServiceTemplate;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -17,16 +19,17 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Transactional
 @Service
-public class TeacherService implements EntityService<TeacherDTO> {
-	@Autowired
-	private final TeacherMapper teacherMapper;
+public class TeacherService implements ServiceTemplate<TeacherDTO> {
 	@Autowired
 	private final TeacherJpaRepository teacherJpaRepository;
 
 	@Override
 	public TeacherDTO createEntity(TeacherDTO teacherDTO) {
-		Teacher savedTeacher = teacherJpaRepository.save(teacherMapper.toEntity(teacherDTO));
-		return teacherMapper.toDTO(savedTeacher);
+		Teacher teacher = TeacherMapper.INSTANCE.toEntity(teacherDTO);
+		teacher.setCreatedTs(new Timestamp(System.currentTimeMillis()));
+		teacher.setCreatedBy(null);
+		Teacher savedTeacher = teacherJpaRepository.save(teacher);
+		return TeacherMapper.INSTANCE.toDTO(savedTeacher);
 	}
 
 	@Override
@@ -35,7 +38,7 @@ public class TeacherService implements EntityService<TeacherDTO> {
 		if (!optionalTeacher.isPresent()) {
 			throw new RecordNotFoundException("Teacher with id " + id + " not found.");
 		}
-		return teacherMapper.toDTO(optionalTeacher.get());
+		return TeacherMapper.INSTANCE.toDTO(optionalTeacher.get());
 	}
 
 	@Override
@@ -45,10 +48,11 @@ public class TeacherService implements EntityService<TeacherDTO> {
 			throw new RecordNotFoundException("Teacher with id " + id + " not found.");
 		}
 		Teacher teacher = optionalTeacher.get();
-		teacher.setFirstName(updatedEntity.getFirstName());
-		teacher.setLastName(updatedEntity.getLastName());
-		teacher.setSubject(updatedEntity.getSubject());
-		return teacherMapper.toDTO(teacher);
+		teacher.setModifiedTs(new Timestamp(System.currentTimeMillis()));
+		teacher.setModifiedBy(null);
+		TeacherMapper.INSTANCE.updateTeacherFromDto(updatedEntity, teacher);
+		teacherJpaRepository.save(teacher);
+		return TeacherMapper.INSTANCE.toDTO(teacher);
 	}
 
 	@Override

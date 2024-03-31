@@ -1,7 +1,6 @@
 package com.bishal.factorydesign.mapper;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
 import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;
@@ -16,7 +15,6 @@ public interface StudentMapper {
 
 	StudentMapper INSTANCE = Mappers.getMapper(StudentMapper.class);
 
-	@Mapping(source = "id", target = "id")
 	Student toEntity(StudentDTO studentDto);
 
 	StudentDTO toDTO(Student student);
