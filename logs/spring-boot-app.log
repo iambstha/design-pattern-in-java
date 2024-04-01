@@ -80,3 +80,534 @@
 2024-04-01T11:21:35.728+05:45 DEBUG 10010 --- [factorydesign] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-04-01T11:21:35.728+05:45 DEBUG 10010 --- [factorydesign] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@6488d758]
 2024-04-01T11:21:35.732+05:45 DEBUG 10010 --- [factorydesign] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:23:57.622+05:45  INFO 10454 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 10454 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:23:57.628+05:45  INFO 10454 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:23:57.703+05:45  INFO 10454 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:23:57.703+05:45  INFO 10454 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:23:58.698+05:45  INFO 10454 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:23:58.782+05:45  INFO 10454 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:23:59.426+05:45  INFO 10454 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:23:59.440+05:45  INFO 10454 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:23:59.441+05:45  INFO 10454 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:23:59.506+05:45  INFO 10454 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:23:59.506+05:45  INFO 10454 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1802 ms
+2024-04-01T11:24:00.059+05:45  INFO 10454 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:24:00.092+05:45  INFO 10454 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:24:00.459+05:45  INFO 10454 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28d5b67
+2024-04-01T11:24:00.461+05:45  INFO 10454 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:24:01.549+05:45  INFO 10454 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:02.017+05:45  WARN 10454 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:24:02.154+05:45 DEBUG 10454 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:24:02.255+05:45 DEBUG 10454 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:24:02.295+05:45 DEBUG 10454 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:24:02.331+05:45 DEBUG 10454 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:24:02.534+05:45  WARN 10454 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-01T11:24:02.556+05:45  WARN 10454 --- [factorydesign] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01T11:24:02.558+05:45  INFO 10454 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:02.561+05:45  INFO 10454 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:24:02.580+05:45  INFO 10454 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:24:02.602+05:45  INFO 10454 --- [factorydesign] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01T11:24:02.620+05:45 ERROR 10454 --- [factorydesign] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-04-01T11:24:11.578+05:45  INFO 10571 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 10571 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:24:11.582+05:45  INFO 10571 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:24:11.648+05:45  INFO 10571 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:24:11.649+05:45  INFO 10571 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:24:12.660+05:45  INFO 10571 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:24:12.743+05:45  INFO 10571 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:24:13.409+05:45  INFO 10571 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:24:13.424+05:45  INFO 10571 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:24:13.425+05:45  INFO 10571 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:24:13.497+05:45  INFO 10571 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:24:13.497+05:45  INFO 10571 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1848 ms
+2024-04-01T11:24:14.056+05:45  INFO 10571 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:24:14.086+05:45  INFO 10571 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:24:14.648+05:45  INFO 10571 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a4374b5
+2024-04-01T11:24:14.650+05:45  INFO 10571 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:24:15.792+05:45  INFO 10571 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:16.288+05:45  WARN 10571 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:24:16.502+05:45 DEBUG 10571 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:24:16.666+05:45 DEBUG 10571 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:24:16.704+05:45 DEBUG 10571 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:24:16.743+05:45 DEBUG 10571 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:24:16.942+05:45  WARN 10571 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-01T11:24:16.967+05:45  WARN 10571 --- [factorydesign] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01T11:24:16.970+05:45  INFO 10571 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:16.975+05:45  INFO 10571 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:24:16.995+05:45  INFO 10571 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:24:17.016+05:45  INFO 10571 --- [factorydesign] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01T11:24:17.038+05:45 ERROR 10571 --- [factorydesign] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-04-01T11:24:31.142+05:45  INFO 10705 --- [factorydesign] [main] c.b.f.FactorydesignApplicationTests      : Starting FactorydesignApplicationTests using Java 17.0.10 with PID 10705 (started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:24:31.144+05:45  INFO 10705 --- [factorydesign] [main] c.b.f.FactorydesignApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:24:31.199+05:45 DEBUG 10705 --- [factorydesign] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d373bcf
+2024-04-01T11:24:32.246+05:45  INFO 10705 --- [factorydesign] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:24:32.361+05:45  INFO 10705 --- [factorydesign] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:24:33.610+05:45  INFO 10705 --- [factorydesign] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:24:33.641+05:45  INFO 10705 --- [factorydesign] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:24:34.047+05:45  INFO 10705 --- [factorydesign] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@481ed95c
+2024-04-01T11:24:34.049+05:45  INFO 10705 --- [factorydesign] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:24:35.260+05:45  INFO 10705 --- [factorydesign] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:36.040+05:45  WARN 10705 --- [factorydesign] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:24:36.274+05:45 DEBUG 10705 --- [factorydesign] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:24:36.435+05:45 DEBUG 10705 --- [factorydesign] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:24:36.482+05:45 DEBUG 10705 --- [factorydesign] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:24:36.523+05:45 DEBUG 10705 --- [factorydesign] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:24:36.825+05:45  INFO 10705 --- [factorydesign] [main] c.b.f.FactorydesignApplicationTests      : Started FactorydesignApplicationTests in 6.124 seconds (process running for 7.39)
+2024-04-01T11:24:37.546+05:45 DEBUG 10705 --- [factorydesign] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7d373bcf, started on Mon Apr 01 11:24:31 NPT 2024
+2024-04-01T11:24:37.553+05:45  INFO 10705 --- [factorydesign] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:37.557+05:45  INFO 10705 --- [factorydesign] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:24:37.596+05:45  INFO 10705 --- [factorydesign] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:24:45.943+05:45  INFO 10855 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 10855 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:24:45.947+05:45  INFO 10855 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:24:46.008+05:45  INFO 10855 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:24:46.009+05:45  INFO 10855 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:24:46.828+05:45  INFO 10855 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:24:46.899+05:45  INFO 10855 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:24:47.469+05:45  INFO 10855 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:24:47.484+05:45  INFO 10855 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:24:47.485+05:45  INFO 10855 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:24:47.546+05:45  INFO 10855 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:24:47.547+05:45  INFO 10855 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1537 ms
+2024-04-01T11:24:47.982+05:45  INFO 10855 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:24:48.010+05:45  INFO 10855 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:24:48.305+05:45  INFO 10855 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@355501be
+2024-04-01T11:24:48.307+05:45  INFO 10855 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:24:49.288+05:45  INFO 10855 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:49.729+05:45  WARN 10855 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:24:49.847+05:45 DEBUG 10855 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:24:49.937+05:45 DEBUG 10855 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:24:49.975+05:45 DEBUG 10855 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:24:50.014+05:45 DEBUG 10855 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:24:50.199+05:45  WARN 10855 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-01T11:24:50.218+05:45  WARN 10855 --- [factorydesign] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01T11:24:50.220+05:45  INFO 10855 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:24:50.223+05:45  INFO 10855 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:24:50.252+05:45  INFO 10855 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:24:50.273+05:45  INFO 10855 --- [factorydesign] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01T11:24:50.293+05:45 ERROR 10855 --- [factorydesign] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-04-01T11:25:37.960+05:45  INFO 11016 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 11016 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:25:37.968+05:45  INFO 11016 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:25:38.031+05:45  INFO 11016 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:25:38.032+05:45  INFO 11016 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:25:39.030+05:45  INFO 11016 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:25:39.112+05:45  INFO 11016 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:25:39.868+05:45  INFO 11016 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:25:39.881+05:45  INFO 11016 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:25:39.882+05:45  INFO 11016 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:25:39.954+05:45  INFO 11016 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:25:39.955+05:45  INFO 11016 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1923 ms
+2024-04-01T11:25:40.451+05:45  INFO 11016 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:25:40.476+05:45  INFO 11016 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:25:40.787+05:45  INFO 11016 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e9f816d
+2024-04-01T11:25:40.789+05:45  INFO 11016 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:25:41.824+05:45  INFO 11016 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:25:42.325+05:45  WARN 11016 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:25:42.472+05:45 DEBUG 11016 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:25:42.576+05:45 DEBUG 11016 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:25:42.632+05:45 DEBUG 11016 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:25:42.677+05:45 DEBUG 11016 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:25:42.893+05:45  WARN 11016 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-01T11:25:42.921+05:45  WARN 11016 --- [factorydesign] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01T11:25:42.923+05:45  INFO 11016 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:25:42.926+05:45  INFO 11016 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:25:42.946+05:45  INFO 11016 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:25:42.965+05:45  INFO 11016 --- [factorydesign] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01T11:25:42.989+05:45 ERROR 11016 --- [factorydesign] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-04-01T11:29:10.419+05:45  INFO 11746 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 11746 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:29:10.422+05:45  INFO 11746 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:29:10.490+05:45  INFO 11746 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:29:10.491+05:45  INFO 11746 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:29:11.300+05:45  INFO 11746 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:29:11.374+05:45  INFO 11746 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:29:11.925+05:45  INFO 11746 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:29:11.936+05:45  INFO 11746 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:29:11.937+05:45  INFO 11746 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:29:11.997+05:45  INFO 11746 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:29:11.998+05:45  INFO 11746 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1505 ms
+2024-04-01T11:29:12.465+05:45  INFO 11746 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:29:12.492+05:45  INFO 11746 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:29:12.831+05:45  INFO 11746 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ededce
+2024-04-01T11:29:12.833+05:45  INFO 11746 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:29:13.888+05:45  INFO 11746 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:29:14.378+05:45  WARN 11746 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:29:14.509+05:45 DEBUG 11746 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:29:14.599+05:45 DEBUG 11746 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:29:14.639+05:45 DEBUG 11746 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:29:14.678+05:45 DEBUG 11746 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:29:14.860+05:45  WARN 11746 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-01T11:29:14.880+05:45  WARN 11746 --- [factorydesign] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01T11:29:14.881+05:45  INFO 11746 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:29:14.885+05:45  INFO 11746 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:29:14.901+05:45  INFO 11746 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:29:14.920+05:45  INFO 11746 --- [factorydesign] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01T11:29:14.940+05:45 ERROR 11746 --- [factorydesign] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-04-01T11:29:37.573+05:45  INFO 11967 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 11967 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:29:37.576+05:45  INFO 11967 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:29:37.640+05:45  INFO 11967 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:29:37.640+05:45  INFO 11967 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:29:38.466+05:45  INFO 11967 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:29:38.542+05:45  INFO 11967 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:29:39.129+05:45  INFO 11967 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:29:39.141+05:45  INFO 11967 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:29:39.142+05:45  INFO 11967 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:29:39.206+05:45  INFO 11967 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:29:39.207+05:45  INFO 11967 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1566 ms
+2024-04-01T11:29:39.646+05:45  INFO 11967 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:29:39.669+05:45  INFO 11967 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:29:39.966+05:45  INFO 11967 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ededce
+2024-04-01T11:29:39.968+05:45  INFO 11967 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:29:40.952+05:45  INFO 11967 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:29:41.395+05:45  WARN 11967 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:29:41.517+05:45 DEBUG 11967 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:29:41.600+05:45 DEBUG 11967 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:29:41.638+05:45 DEBUG 11967 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:29:41.672+05:45 DEBUG 11967 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:29:41.864+05:45  INFO 11967 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-01T11:29:41.891+05:45  INFO 11967 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-01T11:29:41.903+05:45  INFO 11967 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Started FactorydesignApplication in 4.782 seconds (process running for 5.175)
+2024-04-01T11:29:47.230+05:45  INFO 11967 --- [factorydesign] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01T11:29:47.231+05:45  INFO 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-01T11:29:47.231+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-04-01T11:29:47.232+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-04-01T11:29:47.232+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-04-01T11:29:47.235+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@8b333e6
+2024-04-01T11:29:47.236+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1686f18a
+2024-04-01T11:29:47.237+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-01T11:29:47.237+05:45  INFO 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-04-01T11:29:47.244+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-04-01T11:29:47.257+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-04-01T11:29:47.277+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-04-01T11:29:47.302+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-04-01T11:29:47.304+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-04-01T11:29:47.346+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:29:47.396+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-04-01T11:29:47.399+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-04-01T11:29:47.419+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-04-01T11:29:47.421+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-04-01T11:29:47.453+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:29:47.495+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/controller-api", parameters={}
+2024-04-01T11:29:47.497+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource#openapiJson(HttpServletRequest, String, String, Locale)
+2024-04-01T11:29:47.896+05:45  INFO 11967 --- [factorydesign] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 382 ms
+2024-04-01T11:29:47.923+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-04-01T11:29:47.926+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-04-01T11:29:47.927+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:29:52.542+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/controller-api", parameters={}
+2024-04-01T11:29:52.543+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource#openapiJson(HttpServletRequest, String, String, Locale)
+2024-04-01T11:29:52.551+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8] and supported [application/json]
+2024-04-01T11:29:52.553+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-04-01T11:29:52.554+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:29:52.615+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-04-01T11:29:52.616+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-04-01T11:29:52.618+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-04-01T11:29:52.622+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.bishal.factorydesign.exception.GlobalExceptionHandler#handleException(Exception, WebRequest)
+2024-04-01T11:29:52.630+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/problem+json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/problem+json]
+2024-04-01T11:29:52.636+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProblemDetail[type='about:blank', title='Not Found', status=404, detail='No static resource favicon. (truncated)...]
+2024-04-01T11:29:52.645+05:45  WARN 11967 --- [factorydesign] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-04-01T11:29:52.646+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-04-01T11:30:09.999+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-04-01T11:30:10.002+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-04-01T11:30:10.007+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:30:10.371+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-04-01T11:30:10.372+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-04-01T11:30:10.375+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-04-01T11:30:10.376+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-04-01T11:30:10.378+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:30:10.419+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/controller-api", parameters={}
+2024-04-01T11:30:10.420+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource#openapiJson(HttpServletRequest, String, String, Locale)
+2024-04-01T11:30:10.427+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-04-01T11:30:10.429+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-04-01T11:30:10.432+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:30:20.092+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/v1/api/teachers", parameters={}
+2024-04-01T11:30:20.093+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bishal.factorydesign.resource.TeacherResource#createTeacher(TeacherDTO)
+2024-04-01T11:30:20.109+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [TeacherDTO(id=null, firstName=string, lastName=string, subject=string)]
+2024-04-01T11:30:20.152+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-10] org.hibernate.SQL                        : insert into teachers (created_by,created_ts,first_name,last_name,subject) values (?,?,?,?,?)
+2024-04-01T11:30:20.190+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-01T11:30:20.190+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@65f6d15f]
+2024-04-01T11:30:20.192+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2024-04-01T11:30:33.487+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/api/teachers/3", parameters={}
+2024-04-01T11:30:33.488+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bishal.factorydesign.resource.TeacherResource#readTeacher(Integer)
+2024-04-01T11:30:33.540+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] org.hibernate.SQL                        : select t1_0.id,t1_0.created_by,t1_0.created_ts,t1_0.first_name,t1_0.last_name,t1_0.modified_by,t1_0.modified_ts,t1_0.subject from teachers t1_0 where t1_0.id=?
+2024-04-01T11:30:33.548+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-01T11:30:33.549+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@619903af]
+2024-04-01T11:30:33.550+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:30:52.720+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : PUT "/v1/api/teachers/3", parameters={}
+2024-04-01T11:30:52.721+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bishal.factorydesign.resource.TeacherResource#updateTeacher(Integer, TeacherDTO)
+2024-04-01T11:30:52.723+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [TeacherDTO(id=null, firstName=string updated, lastName=string updated, subject=string updated)]
+2024-04-01T11:30:52.725+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] org.hibernate.SQL                        : select t1_0.id,t1_0.created_by,t1_0.created_ts,t1_0.first_name,t1_0.last_name,t1_0.modified_by,t1_0.modified_ts,t1_0.subject from teachers t1_0 where t1_0.id=?
+2024-04-01T11:30:52.745+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.bishal.factorydesign.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2024-04-01T11:30:52.745+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-01T11:30:52.745+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@39d425f2]
+2024-04-01T11:30:52.746+05:45  WARN 11967 --- [factorydesign] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.orm.jpa.JpaSystemException: identifier of an instance of com.bishal.factorydesign.entity.Teacher was altered from null to 3]
+2024-04-01T11:30:52.747+05:45 DEBUG 11967 --- [factorydesign] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2024-04-01T11:31:43.799+05:45  INFO 12141 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 12141 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:31:43.803+05:45  INFO 12141 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:31:43.880+05:45  INFO 12141 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:31:43.881+05:45  INFO 12141 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:31:44.944+05:45  INFO 12141 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:31:45.029+05:45  INFO 12141 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:31:45.597+05:45  INFO 12141 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:31:45.607+05:45  INFO 12141 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:31:45.608+05:45  INFO 12141 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:31:45.663+05:45  INFO 12141 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:31:45.664+05:45  INFO 12141 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2024-04-01T11:31:46.153+05:45  INFO 12141 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:31:46.181+05:45  INFO 12141 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:31:46.497+05:45  INFO 12141 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40631e6
+2024-04-01T11:31:46.500+05:45  INFO 12141 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:31:47.635+05:45  INFO 12141 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:31:48.111+05:45  WARN 12141 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:31:48.234+05:45 DEBUG 12141 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:31:48.326+05:45 DEBUG 12141 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:31:48.364+05:45 DEBUG 12141 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:31:48.400+05:45 DEBUG 12141 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:31:48.598+05:45  WARN 12141 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-04-01T11:31:48.630+05:45  WARN 12141 --- [factorydesign] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-04-01T11:31:48.633+05:45  INFO 12141 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:31:48.638+05:45  INFO 12141 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:31:48.668+05:45  INFO 12141 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:31:48.690+05:45  INFO 12141 --- [factorydesign] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01T11:31:48.708+05:45 ERROR 12141 --- [factorydesign] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-04-01T11:32:23.658+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 12282 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:32:23.661+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:32:23.717+05:45  INFO 12282 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-01T11:32:23.718+05:45  INFO 12282 --- [factorydesign] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-01T11:32:24.568+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:32:24.648+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:32:25.324+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:32:25.336+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:32:25.337+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:32:25.391+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:32:25.392+05:45  INFO 12282 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1673 ms
+2024-04-01T11:32:25.905+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:32:25.940+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T11:32:26.404+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8fe26f6
+2024-04-01T11:32:26.407+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T11:32:27.504+05:45  INFO 12282 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:32:27.965+05:45  WARN 12282 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:32:28.085+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:32:28.173+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:32:28.210+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:32:28.243+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:32:28.443+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-01T11:32:28.480+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-01T11:32:28.495+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Started FactorydesignApplication in 5.305 seconds (process running for 6.179)
+2024-04-01T11:32:41.466+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01T11:32:41.466+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-01T11:32:41.467+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-04-01T11:32:41.467+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-04-01T11:32:41.467+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-04-01T11:32:41.469+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@105dcd85
+2024-04-01T11:32:41.470+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@478e2e
+2024-04-01T11:32:41.471+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-01T11:32:41.472+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-04-01T11:32:41.481+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : PUT "/v1/api/teachers/3", parameters={}
+2024-04-01T11:32:41.498+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bishal.factorydesign.resource.TeacherResource#updateTeacher(Integer, TeacherDTO)
+2024-04-01T11:32:41.586+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [TeacherDTO(id=null, firstName=string updated, lastName=string updated, subject=string updated)]
+2024-04-01T11:32:41.644+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] org.hibernate.SQL                        : select t1_0.id,t1_0.created_by,t1_0.created_ts,t1_0.first_name,t1_0.last_name,t1_0.modified_by,t1_0.modified_ts,t1_0.subject from teachers t1_0 where t1_0.id=?
+2024-04-01T11:32:41.681+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.bishal.factorydesign.exception.GlobalExceptionHandler#handleGenericException(Exception)
+2024-04-01T11:32:41.707+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-01T11:32:41.709+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@9a016e]
+2024-04-01T11:32:41.722+05:45  WARN 12282 --- [factorydesign] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.orm.jpa.JpaSystemException: identifier of an instance of com.bishal.factorydesign.entity.Teacher was altered from null to 3]
+2024-04-01T11:32:41.724+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2024-04-01T11:32:46.878+05:45  INFO 12282 --- [factorydesign] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-04-01T11:32:46.900+05:45  INFO 12282 --- [factorydesign] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:32:46.905+05:45  INFO 12282 --- [factorydesign] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-01T11:32:46.950+05:45  INFO 12282 --- [factorydesign] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-01T11:32:47.113+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 12282 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:32:47.115+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:32:47.518+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:32:47.540+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:32:47.688+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:32:47.690+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:32:47.691+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:32:47.703+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:32:47.703+05:45  INFO 12282 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 583 ms
+2024-04-01T11:32:47.761+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:32:47.762+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-04-01T11:32:47.807+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@477de384
+2024-04-01T11:32:47.808+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-04-01T11:32:47.917+05:45  INFO 12282 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:32:48.138+05:45  WARN 12282 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:32:48.177+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:32:48.215+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:32:48.230+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:32:48.237+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:32:48.326+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-01T11:32:48.348+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-01T11:32:48.358+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Started FactorydesignApplication in 1.299 seconds (process running for 26.042)
+2024-04-01T11:32:48.361+05:45  INFO 12282 --- [factorydesign] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-01T11:33:17.188+05:45  INFO 12282 --- [factorydesign] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2024-04-01T11:33:17.194+05:45  INFO 12282 --- [factorydesign] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:33:17.195+05:45  INFO 12282 --- [factorydesign] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-04-01T11:33:17.219+05:45  INFO 12282 --- [factorydesign] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-04-01T11:33:17.335+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 12282 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:33:17.336+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:33:17.544+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:33:17.557+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:33:17.676+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:33:17.677+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:33:17.677+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:33:17.690+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:33:17.690+05:45  INFO 12282 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 352 ms
+2024-04-01T11:33:17.766+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:33:17.768+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-04-01T11:33:17.816+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@69533a65
+2024-04-01T11:33:17.816+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-04-01T11:33:17.917+05:45  INFO 12282 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:33:18.089+05:45  WARN 12282 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:33:18.126+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:33:18.176+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:33:18.195+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:33:18.203+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:33:18.321+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-01T11:33:18.336+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-01T11:33:18.343+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Started FactorydesignApplication in 1.042 seconds (process running for 56.027)
+2024-04-01T11:33:18.345+05:45  INFO 12282 --- [factorydesign] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-01T11:33:24.894+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01T11:33:24.895+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-01T11:33:24.895+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-04-01T11:33:24.895+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-04-01T11:33:24.895+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-04-01T11:33:24.897+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7badbc56
+2024-04-01T11:33:24.898+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2670ec1
+2024-04-01T11:33:24.898+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-01T11:33:24.899+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-01T11:33:24.899+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : PUT "/v1/api/teachers/3", parameters={}
+2024-04-01T11:33:24.900+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bishal.factorydesign.resource.TeacherResource#updateTeacher(Integer, TeacherDTO)
+2024-04-01T11:33:24.907+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [TeacherDTO(id=null, firstName=string updated, lastName=string updated, subject=string updated)]
+2024-04-01T11:33:24.912+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] org.hibernate.SQL                        : select t1_0.id,t1_0.created_by,t1_0.created_ts,t1_0.first_name,t1_0.last_name,t1_0.modified_by,t1_0.modified_ts,t1_0.subject from teachers t1_0 where t1_0.id=?
+2024-04-01T11:33:24.945+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] org.hibernate.SQL                        : update teachers set first_name=?,last_name=?,modified_by=?,modified_ts=?,subject=? where id=?
+2024-04-01T11:33:24.967+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-01T11:33:24.968+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@36a1ab58]
+2024-04-01T11:33:24.976+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-04-01T11:33:39.758+05:45  INFO 12282 --- [factorydesign] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-01T11:33:39.764+05:45  INFO 12282 --- [factorydesign] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:33:39.766+05:45  INFO 12282 --- [factorydesign] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-04-01T11:33:39.789+05:45  INFO 12282 --- [factorydesign] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-04-01T11:33:39.903+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Starting FactorydesignApplication using Java 17.0.10 with PID 12282 (/home/iambstha/Downloads/factorydesign/target/classes started by iambstha in /home/iambstha/Downloads/factorydesign)
+2024-04-01T11:33:39.903+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T11:33:40.105+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T11:33:40.116+05:45  INFO 12282 --- [factorydesign] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 3 JPA repository interfaces.
+2024-04-01T11:33:40.242+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-01T11:33:40.243+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-01T11:33:40.244+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-01T11:33:40.255+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-01T11:33:40.255+05:45  INFO 12282 --- [factorydesign] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 350 ms
+2024-04-01T11:33:40.299+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T11:33:40.300+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-04-01T11:33:40.338+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@53938161
+2024-04-01T11:33:40.339+05:45  INFO 12282 --- [factorydesign] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-04-01T11:33:40.433+05:45  INFO 12282 --- [factorydesign] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T11:33:40.584+05:45  WARN 12282 --- [factorydesign] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T11:33:40.621+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-04-01T11:33:40.664+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-04-01T11:33:40.680+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-04-01T11:33:40.688+05:45 DEBUG 12282 --- [factorydesign] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-04-01T11:33:40.763+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-01T11:33:40.782+05:45  INFO 12282 --- [factorydesign] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-01T11:33:40.789+05:45  INFO 12282 --- [factorydesign] [restartedMain] c.b.f.FactorydesignApplication           : Started FactorydesignApplication in 0.913 seconds (process running for 78.474)
+2024-04-01T11:33:40.792+05:45  INFO 12282 --- [factorydesign] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-01T11:33:45.768+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-01T11:33:45.769+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-01T11:33:45.769+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-04-01T11:33:45.769+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-04-01T11:33:45.769+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-04-01T11:33:45.771+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3044301a
+2024-04-01T11:33:45.772+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@664ab5f8
+2024-04-01T11:33:45.772+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-01T11:33:45.772+05:45  INFO 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-01T11:33:45.773+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/v1/api/teachers/3", parameters={}
+2024-04-01T11:33:45.774+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bishal.factorydesign.resource.TeacherResource#readTeacher(Integer)
+2024-04-01T11:33:45.780+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] org.hibernate.SQL                        : select t1_0.id,t1_0.created_by,t1_0.created_ts,t1_0.first_name,t1_0.last_name,t1_0.modified_by,t1_0.modified_ts,t1_0.subject from teachers t1_0 where t1_0.id=?
+2024-04-01T11:33:45.793+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-04-01T11:33:45.794+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.bishal.factorydesign.domain.ErrorResponse@7b598341]
+2024-04-01T11:33:45.800+05:45 DEBUG 12282 --- [factorydesign] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
