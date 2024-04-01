@@ -50,7 +50,7 @@ public class TeacherService implements ServiceTemplate<TeacherDTO> {
 		Teacher teacher = optionalTeacher.get();
 		teacher.setModifiedTs(new Timestamp(System.currentTimeMillis()));
 		teacher.setModifiedBy(null);
-		updatedEntity.setId(id);
+		updatedEntity.setId(teacher.getId());
 		TeacherMapper.INSTANCE.updateTeacherFromDto(updatedEntity, teacher);
 		teacherJpaRepository.save(teacher);
 		return TeacherMapper.INSTANCE.toDTO(teacher);

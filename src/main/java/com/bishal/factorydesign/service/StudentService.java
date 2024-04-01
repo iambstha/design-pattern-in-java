@@ -50,7 +50,7 @@ public class StudentService implements ServiceTemplate<StudentDTO> {
 		Student student = optionalStudent.get();
 		student.setModifiedTs(new Timestamp(System.currentTimeMillis()));
 		student.setModifiedBy(null);
-		updatedEntity.setId(id);
+		updatedEntity.setId(student.getId());
 		StudentMapper.INSTANCE.updateStudentFromDto(updatedEntity, student);
 		studentJpaRepository.save(student);
 		return StudentMapper.INSTANCE.toDTO(student);
