@@ -21,6 +21,7 @@ To install and run the API, follow these steps:
 2. Navigate to the project directory.
 3. Build the project using Maven: `mvn clean install`.
 4. Run the application using Spring Boot: `mvn spring-boot:run`.
+5. To test the api, use this swagger link: http://localhost:8080/swagger-ui/index.html
 
 ## Contributing
 
